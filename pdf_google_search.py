@@ -5,7 +5,7 @@ import requests
 from google.google import search
 
 config = {
-    'base_path':'/Users/cadencemo/Desktop/simoFolder/pdfsearch',
+    'base_path':'./pdfsearch',
     'pdf':True
 }
 
