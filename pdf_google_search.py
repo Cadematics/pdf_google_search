@@ -44,7 +44,7 @@ def runQuery(searches, search_folder, number_results):
         if config.get('pdf'):
             query += ' filetype:pdf'
             print ("CURRENTLY QUERYING", query)
-        #print "search(query, stop=number_results)", search(query, stop=number_results)
+        
 
         for url in search(query, number_results):
             name = (url.link).split('/')[-1]
